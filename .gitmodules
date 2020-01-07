@@ -1,0 +1,3 @@
+[submodule "themes/book"]
+	path = themes/book
+	url = git@github.com:muratozkan/hexo-theme-book.git

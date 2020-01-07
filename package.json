@@ -1,0 +1,34 @@
+{
+  "name": "muratozkan.github.io",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Personal Blog",
+  "scripts": {
+    "build": "hexo generate",
+    "clean": "hexo clean",
+    "deploy": "hexo deploy",
+    "server": "hexo server"
+  },
+  "hexo": {
+    "version": "4.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muratozkan/muratozkan.github.io.git"
+  },
+  "author": "Murat Özkan",
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/muratozkan/muratozkan.github.io#readme",
+  "dependencies": {
+    "hexo": "4.2.0",
+    "hexo-generator-archive": "1.0.0",
+    "hexo-generator-category": "1.0.0",
+    "hexo-generator-index": "1.0.0",
+    "hexo-generator-tag": "1.0.0",
+    "hexo-renderer-ejs": "1.0.0",
+    "hexo-renderer-markdown-it": "4.0.0",
+    "hexo-renderer-scss": "1.2.0",
+    "hexo-renderer-stylus": "1.1.0",
+    "hexo-server": "1.0.0"
+  }
+}
