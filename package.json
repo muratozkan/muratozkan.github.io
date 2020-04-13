@@ -7,6 +7,7 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
+    "hexo": "hexo",
     "server": "hexo server"
   },
   "hexo": {
@@ -26,7 +27,7 @@
     "hexo-generator-index": "1.0.0",
     "hexo-generator-tag": "1.0.0",
     "hexo-renderer-ejs": "1.0.0",
-    "hexo-renderer-markdown-it": "4.0.0",
+    "hexo-renderer-markdown-it": "4.1.0",
     "hexo-renderer-scss": "1.2.0",
     "hexo-renderer-stylus": "1.1.0",
     "hexo-server": "1.0.0"
