@@ -1,0 +1,19 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "public void",
+  "home_page_url": "https://muratozkan.github.io/",
+  "feed_url": "https://muratozkan.github.io/feed/feed.json",
+  "description": "Books, Software and Games",
+  "author": {
+    "name": "Murat Özkan",
+    "url": "https://muratozkan.github.io/about-me/"
+  },
+  "items": [{
+      "id": "https://muratozkan.github.io/2020/11/the-moon-is-a-harsh-mistress/",
+      "url": "https://muratozkan.github.io/2020/11/the-moon-is-a-harsh-mistress/",
+      "title": "The Moon is a Harsh Mistress",
+      "content_html": "<p><strong>My score: 4⭐ (out of 5)</strong></p>\n<p>It's 2070s and humanity is finally colonizing the moon - around 40 million people is living in multiple subterranean (sublunaean?) cities, connected with tube systems and all controlled with a huge, central mainframe computer with so much computing power that it becomes conscious. Sadly, ethical progress lags behind the technological progress. The Luna colonies are prison colonies, Earth is dumping convicts of all kinds (regardless of country) there. There are no laws, the Wardens are only interested in the food delivered to Earth via a huge railgun. Earth is suffering from overpopulation and food shortage, and depending on food shipped from Luna. You can guess where it goes from there.</p>\n<p>The premise is really interesting, the book reads like a prequel of the Expanse. The physics work like it does in the real world, including some non-obvious limitations. Colonies are a closed habitat that have to reuse everything - air, water, even the organics in people. Working from there, the author explores the structure, social and political aspects of such a society.</p>\n<p>I had to take 1 star off, mainly because of extreme sexism against women - not just in Luna, but also on Earth. Also, author uses the antagonist's native dialect extensively (an amalgamation of most languages of inmates), making the novel too hard to read. I suggest trying to look past these issues if you intend to read this awesome novel.</p>\n",
+      "date_published": "2020-11-24T00:00:00Z"
+    }
+  ]
+}

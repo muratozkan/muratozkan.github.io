@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>public void</title>
+	<subtitle>Books, Software and Games</subtitle>
+	
+	<link href="https://muratozkan.github.io/feed/feed.xml" rel="self"/>
+	<link href="https://muratozkan.github.io/"/>
+	<updated>2020-11-24T00:00:00Z</updated>
+	<id>https://muratozkan.github.io/</id>
+	<author>
+		<name>Murat Özkan</name>
+		<email></email>
+	</author>
+	
+	<entry>
+		<title>The Moon is a Harsh Mistress</title>
+		<link href="https://muratozkan.github.io/2020/11/the-moon-is-a-harsh-mistress/"/>
+		<updated>2020-11-24T00:00:00Z</updated>
+		<id>https://muratozkan.github.io/2020/11/the-moon-is-a-harsh-mistress/</id>
+		<content type="html">&lt;p&gt;&lt;strong&gt;My score: 4⭐ (out of 5)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;It&#39;s 2070s and humanity is finally colonizing the moon - around 40 million people is living in multiple subterranean (sublunaean?) cities, connected with tube systems and all controlled with a huge, central mainframe computer with so much computing power that it becomes conscious. Sadly, ethical progress lags behind the technological progress. The Luna colonies are prison colonies, Earth is dumping convicts of all kinds (regardless of country) there. There are no laws, the Wardens are only interested in the food delivered to Earth via a huge railgun. Earth is suffering from overpopulation and food shortage, and depending on food shipped from Luna. You can guess where it goes from there.&lt;/p&gt;
+&lt;p&gt;The premise is really interesting, the book reads like a prequel of the Expanse. The physics work like it does in the real world, including some non-obvious limitations. Colonies are a closed habitat that have to reuse everything - air, water, even the organics in people. Working from there, the author explores the structure, social and political aspects of such a society.&lt;/p&gt;
+&lt;p&gt;I had to take 1 star off, mainly because of extreme sexism against women - not just in Luna, but also on Earth. Also, author uses the antagonist&#39;s native dialect extensively (an amalgamation of most languages of inmates), making the novel too hard to read. I suggest trying to look past these issues if you intend to read this awesome novel.&lt;/p&gt;
+</content>
+	</entry>
+</feed>
