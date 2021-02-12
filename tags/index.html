@@ -5,31 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>public void</title>
     <meta name="description" content="Books, Software and Games">
-    <link rel="stylesheet" href="/css/index.css">
-    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
+    <link rel="stylesheet" href="/assets/main.bundle.css">
+    <script src="/assets/main.bundle.js" defer></script>
+    <!--  <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css"> -->
     <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="public void">
     <link rel="alternate" href="/feed/feed.json" type="application/json" title="public void">
   </head>
-  <body>
-    <header>
-      <h1 class="home"><a href="/">public void</a></h1>
-      <ul class="nav">
-        <li class="nav-item"><a href="/">Home</a></li>
-        <li class="nav-item"><a href="/posts/">Archive</a></li>
-        <li class="nav-item"><a href="/about/">About Me</a></li>
-      </ul>
+  <body class="bg-white">
+    <header class="border-b border-dashed">
+        <nav class="nav flex flex-wrap items-center px-4 text-grey-darkest">
+          <span class="font-semibold text-x tracking-tight"><a href="/">public void</a></span>
+          <ul class="menu flex px-6 justify-end list-reset m-0 w-full md:w-auto">
+            <li class="border-t md:border-none">
+              <a class="block md:inline-block px-3 py-3 no-underline text-grey-darkest hover:text-grey-darker "
+                 href="/">Home</a>
+            </li>
+            <li class="border-t md:border-none">
+              <a class="block md:inline-block px-3 py-3 no-underline text-grey-darkest hover:text-grey-darker "
+                 href="/posts/">Archive</a>
+            </li>
+            <li class="border-t md:border-none">
+              <a class="block md:inline-block px-3 py-3 no-underline text-grey-darkest hover:text-grey-darker "
+                 href="/about/">About Me</a>
+            </li>
+          </ul>
+      </nav>
     </header>
 
-    <main class="tmpl-home">
-      <h1>Tags</h1>
+    <div class="container mx-2 my-4 px-2">
+      <main class="tmpl-home">
+        <h1 class="text-3xl font-bold mb-4">Tags</h1>
 
 
   
-  <a href="/tags/book-review/" class="post-tag">book-review</a>
+  <a href="/tags/book-review/" class="tag">book-review</a>
 
 
 
-    </main>
+      </main>
+    </div>
 
     <footer></footer>
 

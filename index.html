@@ -5,44 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>public void</title>
     <meta name="description" content="Books, Software and Games">
-    <link rel="stylesheet" href="/css/index.css">
-    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
+    <link rel="stylesheet" href="/assets/main.bundle.css">
+    <script src="/assets/main.bundle.js" defer></script>
+    <!--  <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css"> -->
     <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="public void">
     <link rel="alternate" href="/feed/feed.json" type="application/json" title="public void">
   </head>
-  <body>
-    <header>
-      <h1 class="home"><a href="/">public void</a></h1>
-      <ul class="nav">
-        <li class="nav-item nav-item-active"><a href="/">Home</a></li>
-        <li class="nav-item"><a href="/posts/">Archive</a></li>
-        <li class="nav-item"><a href="/about/">About Me</a></li>
-      </ul>
+  <body class="bg-white">
+    <header class="border-b border-dashed">
+        <nav class="nav flex flex-wrap items-center px-4 text-grey-darkest">
+          <span class="font-semibold text-x tracking-tight"><a href="/">public void</a></span>
+          <ul class="menu flex px-6 justify-end list-reset m-0 w-full md:w-auto">
+            <li class="border-t md:border-none">
+              <a class="block md:inline-block px-3 py-3 no-underline text-grey-darkest hover:text-grey-darker  font-bold "
+                 href="/">Home</a>
+            </li>
+            <li class="border-t md:border-none">
+              <a class="block md:inline-block px-3 py-3 no-underline text-grey-darkest hover:text-grey-darker "
+                 href="/posts/">Archive</a>
+            </li>
+            <li class="border-t md:border-none">
+              <a class="block md:inline-block px-3 py-3 no-underline text-grey-darkest hover:text-grey-darker "
+                 href="/about/">About Me</a>
+            </li>
+          </ul>
+      </nav>
     </header>
 
-    <main class="tmpl-home">
-      
+    <div class="container mx-2 my-4 px-2">
+      <main class="tmpl-home">
+        
 
-<h1>Latest Post</h1>
+<h1>Latest 2 Posts</h1>
 
 
 
-<ol reversed class="postlist" style="counter-reset: start-from 2">
+<ol reversed class="my-4 list-inside"
+ style="counter-reset: start-from 3">
 
-  <li class="postlist-item">
-    <a href="/2020/11/the-moon-is-a-harsh-mistress/" class="postlist-link">The Moon is a Harsh Mistress</a>
-    <time class="postlist-date" datetime="2020-11-24">24 Nov 2020</time>
+  <li class="li-number-fancy my-2"
+      style="counter-increment: start-from -1;">
+    <a href="/2020/11/the-moon-is-a-harsh-mistress/" class="font-semibold text-l underline mx-1">The Moon is a Harsh Mistress</a>
+    <time class="text-xs" datetime="2020-11-24">24 Nov 2020</time>
     
-      <a href="/tags/book-review/" class="post-tag">book-review</a>
+      <a href="/tags/book-review/" class="tag text-red-100 bg-red-600">book-review</a>
+    <p class="text-sm mx-4 my-2">
+      I really enjoyed reading this Sci-Fi classic from Robert A. Heinlein.
+    </p>
+  </li>
+
+  <li class="li-number-fancy my-2"
+      style="counter-increment: start-from -1;">
+    <a href="/2020/11/the-big-picture-on-the-origins-of-life-meaning-and-the-universe-itself/" class="font-semibold text-l underline mx-1">The Big Picture: On the Origins of Life, Meaning, and the Universe Itself</a>
+    <time class="text-xs" datetime="2020-11-03">03 Nov 2020</time>
+    
+      <a href="/tags/book-review/" class="tag text-red-100 bg-red-600">book-review</a>
+    <p class="text-sm mx-4 my-2">
+      Sean Carroll explains us how well the &quot;Core Theory&quot; describes the world we live in and uses it the push forward the idea of Poetic Naturalism as a way to understand the world around us.
+    </p>
   </li>
 
 </ol>
 
 
-<p>More posts can be found in <a href="/posts/">the archive</a>.</p>
+<hr class="my-4 border-b border-dashed">
+
+<p>More posts can be found in <a class="link" href="/posts/">the archive</a>.</p>
 
 
-    </main>
+      </main>
+    </div>
 
     <footer></footer>
 
