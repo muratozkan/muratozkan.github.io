@@ -593,9 +593,14 @@ h1 {
   background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
 }
 
-.bg-red-600 {
+.bg-red-100 {
   --tw-bg-opacity: 1;
-  background-color: rgba(220, 38, 38, var(--tw-bg-opacity));
+  background-color: rgba(254, 226, 226, var(--tw-bg-opacity));
+}
+
+.border-red-600 {
+  --tw-border-opacity: 1;
+  border-color: rgba(220, 38, 38, var(--tw-border-opacity));
 }
 
 .border-dashed {
@@ -614,12 +619,20 @@ h1 {
   display: block;
 }
 
+.inline-block {
+  display: inline-block;
+}
+
 .flex {
   display: flex;
 }
 
 .table {
   display: table;
+}
+
+.flex-row {
+  flex-direction: row;
 }
 
 .flex-wrap {
@@ -657,12 +670,13 @@ h1 {
   line-height: 2.25rem;
 }
 
-.list-inside {
-  list-style-position: inside;
-}
-
 .m-0 {
   margin: 0px;
+}
+
+.my-1 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
 }
 
 .mx-1 {
@@ -670,33 +684,13 @@ h1 {
   margin-right: 0.25rem;
 }
 
-.my-2 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
-
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
-.mx-4 {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
 .mb-4 {
   margin-bottom: 1rem;
-}
-
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
 }
 
 .py-3 {
@@ -732,9 +726,9 @@ h1 {
   --tw-ring-shadow: 0 0 #0000;
 }
 
-.text-red-100 {
+.text-red-600 {
   --tw-text-opacity: 1;
-  color: rgba(254, 226, 226, var(--tw-text-opacity));
+  color: rgba(220, 38, 38, var(--tw-text-opacity));
 }
 
 .underline {
@@ -827,6 +821,7 @@ h1 {
   content: "" counter(start-from, decimal-leading-zero) ". ";
   line-height: 100%;
   text-align: right;
+  margin-top: 0.5em;
 }
 
 @media (min-width: 640px) {
